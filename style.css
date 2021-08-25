@@ -129,3 +129,53 @@ input,
 select {
 	vertical-align: middle;
 }
+header {
+	background-image: url(Images/photo-1629872874038-b1d600221640\ \(1\).jpeg);
+	background-size: cover;
+	background-position-x: center;
+	padding: 2em 6em;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+nav a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+}
+nav div a:hover {
+	cursor: pointer;
+	color: rgb(197, 197, 197);
+}
+
+nav a:not(:last-child) {
+	margin-right: 1em;
+}
+.hero {
+	display: flex;
+	justify-content: flex-end;
+	padding: 200px;
+}
+.hero h1 {
+	color: white;
+	font-size: 8em;
+}
+.hero div {
+	width: 50%;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+.hero button {
+	padding: 10px 30px;
+	border-radius: 20px;
+	border-style: none;
+	text-transform: uppercase;
+	color: black;
+	transition: .3s ease-in;
+}
+.hero button:hover {
+	transform: scale(1.2);
+	cursor: pointer;
+}
