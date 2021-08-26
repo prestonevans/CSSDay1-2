@@ -130,7 +130,7 @@ select {
 	vertical-align: middle;
 }
 header {
-	background-image: url(Images/photo-1629872874038-b1d600221640\ \(1\).jpeg);
+	background-image: url('Images/photo-1629872874038-b1d600221640.jpeg');
 	background-size: cover;
 	background-position-x: center;
 	padding: 2em 6em;
